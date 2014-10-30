@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TreasureBox</string>
+    <string name="landing_grid">Listing here!</string>
+    <string name="splash_logo">Logo here!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+</resources>
