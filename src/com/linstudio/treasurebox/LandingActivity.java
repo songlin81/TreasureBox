@@ -61,9 +61,8 @@ public class LandingActivity extends FragmentActivity {
             public void onTabChanged(String tabId) {        	
             	//Todo 7. Prompt diff msg based on the clicking event of tab.
             	
-            	
-            	
-            	
+            	//Button playButton = (Button) this.findViewById(R.id.calculatebutton); 
+                //playButton.setVisibility(View.INVISIBLE);
                 //Toast toast = Toast.makeText(getApplicationContext(), tabId, Toast.LENGTH_SHORT);
                 //toast.setGravity(Gravity.CENTER_HORIZONTAL, 0, 50);
                 //toast.show();             
@@ -76,12 +75,6 @@ public class LandingActivity extends FragmentActivity {
         
         //Todo 8. Default selection to the tab.
         host.setCurrentTab(0);
-        
-        Button playButton = (Button) this.findViewById(R.id.calculatebutton); 
-        playButton.setVisibility(View.INVISIBLE);
-        TextView txt222 =(TextView)findViewById(R.id.txt2222);
-        txt222.clearAnimation();
-        txt222.setVisibility(View.INVISIBLE);
 	}
 
 	@Override
